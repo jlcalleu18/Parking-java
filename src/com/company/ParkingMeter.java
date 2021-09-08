@@ -14,4 +14,11 @@ public class ParkingMeter {
     public void setMinutesPurchased(int minutesPurchased) {
         this.minutesPurchased = minutesPurchased;
     }
+
+    @Override
+    public String toString() {
+        return "ParkingMeter{" +
+                "minutesPurchased=" + minutesPurchased +
+                '}';
+    }
 }

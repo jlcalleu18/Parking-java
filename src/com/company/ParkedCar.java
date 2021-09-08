@@ -54,4 +54,15 @@ public class ParkedCar {
     public void setMinutesParked(int minutesParked) {
         this.minutesParked = minutesParked;
     }
+
+    @Override
+    public String toString() {
+        return "ParkedCar{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", licenseNum='" + licenseNum + '\'' +
+                ", minutesParked=" + minutesParked +
+                '}';
+    }
 }
